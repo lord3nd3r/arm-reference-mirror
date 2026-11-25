@@ -7,10 +7,10 @@
       content="This site offers reference documentation for the AArch64 instruction set and system registers defined by the Armv8-A and Armv9-A architectures."
     />
 
-    <link rel="stylesheet" href="/pagefind/pagefind-component-ui.css" />
+    <link rel="stylesheet" href="/arm-reference-mirror/pagefind/pagefind-component-ui.css" />
 
-    <link rel="stylesheet" href="/static/normalize.css" />
-    <link rel="stylesheet" href="/static/main.css" />
+    <link rel="stylesheet" href="/arm-reference-mirror/static/normalize.css" />
+    <link rel="stylesheet" href="/arm-reference-mirror/static/main.css" />
 
     <title>Jon's Arm Reference</title>
   </head>
@@ -33,15 +33,15 @@
 
     <ul>
       <li>
-        All Instructions: <a href="/latest_aarch64/index.html">Base</a> |
-        <a href="/latest_aarch64/fpsimdindex.html">SIMD</a> |
-        <a href="/latest_aarch64/sveindex.html">SVE</a> |
-        <a href="/latest_aarch64/mortlachindex.html">SME</a>
+        All Instructions: <a href="/arm-reference-mirror/latest_aarch64/index.html">Base</a> |
+        <a href="/arm-reference-mirror/latest_aarch64/fpsimdindex.html">SIMD</a> |
+        <a href="/arm-reference-mirror/latest_aarch64/sveindex.html">SVE</a> |
+        <a href="/arm-reference-mirror/latest_aarch64/mortlachindex.html">SME</a>
       </li>
       <li>
         All Registers:
-        <a href="/latest_sysreg/AArch64-regindex.html">AArch64</a> |
-        <a href="/latest_sysreg/AArch32-regindex.html">AArch32</a>
+        <a href="/arm-reference-mirror/latest_sysreg/AArch64-regindex.html">AArch64</a> |
+        <a href="/arm-reference-mirror/latest_sysreg/AArch32-regindex.html">AArch32</a>
       </li>
     </ul>
 
@@ -52,6 +52,7 @@
       <br />
     </p>
 
+    <pagefind-config bundle-path="/arm-reference-mirror/pagefind/" base-url="/arm-reference-mirror/"></pagefind-config>
     <pagefind-searchbox autofocus></pagefind-searchbox>
 
     <div id="wasm-note" class="note">
@@ -63,8 +64,8 @@
       </p>
     </div>
 
-    <script type="module" src="/pagefind/pagefind-component-ui.js"></script>
-    <script type="text/javascript" src="/static/pagefind.js"></script>
+    <script type="module" src="/arm-reference-mirror/pagefind/pagefind-component-ui.js"></script>
+    <script type="text/javascript" src="/arm-reference-mirror/static/pagefind.js"></script>
 
     <script type="text/javascript">
       if (typeof WebAssembly === "object") {
